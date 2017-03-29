@@ -1,0 +1,30 @@
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: black; }
+  body .score {
+    width: 100%;
+    height: 10vh;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; }
+    body .score .points {
+      width: 50%;
+      float: left;
+      text-align: center; }
+      body .score .points p {
+        color: white;
+        font-size: 3rem; }
+  body .container {
+    width: 100%;
+    text-align: center; }
+  body #gameTable {
+    width: 1500px;
+    height: 1000px;
+    border: 4px solid white;
+    border-top: 10px solid white;
+    position: relative;
+    box-sizing: border-box;
+    overflow: hidden; }
